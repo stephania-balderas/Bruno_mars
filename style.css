@@ -1,0 +1,69 @@
+h1{
+    text-align: center;
+    color: rgb(201, 157, 53);
+    /*sombra para texto, como 3D*/
+    text-shadow: 4px 0px rgb(191, 197, 84);
+    font-size: 50px;
+}
+body{
+    background-color: beige;
+}
+h6{
+    text-align: center;
+    /*sirve para subrayar textos*/
+    text-decoration:2px underline dashed rgb(228, 228, 62);
+}
+img{
+    margin-left: 630px;
+    width: 250px;
+    height: 250px;
+    border-style: dotted;
+    border-color: brown;
+    padding: 3px;
+    border-radius: 30px;
+}
+.indice{
+    margin-left: 235px;
+    border-style: ridge;
+    border-color: rgb(81, 15, 15);
+    border-radius: 7px;
+    padding: 5px;
+}
+h3{
+    padding-left: 5px;
+    border-left: 5px rgb(159, 20, 20) solid;
+}
+h4{
+    padding-left: 10px;
+    border: 5px rgb(225, 129, 40) solid;
+    margin-right: 1300px;
+}
+a {
+    color: rgb(196, 157, 74);
+}
+/*esto sirve para cuando tengamos el cursos sobre una referencia a link cambie de color*/
+a:hover{
+    color: hotpink;
+}
+/*cambiar color de fondo de los numeros de la lista desordenada*/
+ul{
+    background-color: rgb(205, 71, 71);
+}
+/*cambiar color de fondo del contenido de cada viñeta (osea de lo que escribimos)*/
+ul li {
+    background-color: rgb(240, 222, 132);
+    padding-left: 15px;
+}
+/*cambiar color de fondo de los numeros de la lista ordenada*/
+ol{
+    background-color: rgb(205, 71, 71);
+}
+/*cambiar color de fondo del contenido de cada numero (osea de lo que escribimos)*/
+ol li {
+    background-color: rgb(240, 222, 132);
+    padding-left: 15px;
+}
+h2{
+    background-color: rgb(249, 155, 72);
+    text-align: center;
+}
